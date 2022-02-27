@@ -1,0 +1,92 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EXOSDENT EDUCATION  | Chetancyber company</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="mediahandles.css">
+    <link rel="stylesheet" href="entrepreneur.css">
+   
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">EXOSDENT</label>
+      <ul>
+        <li><a class="active" href="home.html">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a class="active" href="Services.html">Services</a></li>
+        <li><a class="active" href="#">Contact</a></li>
+        <li><a class="active" href="#">Feedback</a></li>
+      </ul>
+    </nav>
+    
+  </head>
+  <body>
+    <div class="media">
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+       
+        <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li>
+        <li><a href="#"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
+     </ul>
+
+    </div>
+
+<div>
+
+
+  <button class="accordion">Section 1</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  
+  <button class="accordion">Section 2</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  
+  <button class="accordion">Section 3</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion">Section 4</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  
+
+
+
+</div>
+
+
+
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+
+    
+</body>
+</html>
